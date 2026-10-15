@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "outside_region_changed_pixels": 0,
+  "regions": [
+    {
+      "name": "upper-text",
+      "opaque_ink_pixels": 40429,
+      "opaque_ink_mismatches": 0
+    },
+    {
+      "name": "bottom-brand",
+      "opaque_ink_pixels": 5701,
+      "opaque_ink_mismatches": 0
+    }
+  ],
+  "source_was_transformed": false,
+  "native_canvas_size": [
+    3024,
+    4032
+  ],
+  "scope": "Outside-base pixels and prepared opaque ink only; visual extraction/letter review is separate.",
+  "final_sha256": "e64a1bc99382a37aa95adc3e1c555f8ba3ed1634e009c0b5f6bab99dba3dc532",
+  "clean_base_sha256": "4b05952a680217869fda8a3e96ba9e87d143320831133dfad24ee35fc7532fe9",
+  "provenance": "Completed original-layout test; no transform, 3024x4032."
+}

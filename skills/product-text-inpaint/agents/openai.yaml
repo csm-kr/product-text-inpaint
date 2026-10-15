@@ -1,0 +1,4 @@
+interface:
+  display_name: "이미지 자글거림 정리"
+  short_description: "사진의 자글거림을 AI로 정리하고 원본 글자·로고를 복원"
+  default_prompt: "$product-text-inpaint 원본 사진의 자글거림을 정리해줘. 글자와 로고는 원본 잉크를 가져와 보존해줘."

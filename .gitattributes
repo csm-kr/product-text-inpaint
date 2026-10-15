@@ -1,0 +1,12 @@
+*.sh text eol=lf
+text-clean text eol=lf
+test-local text eol=lf
+*.py text eol=lf
+*.mjs text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+toolchain/versions.env text eol=lf
+*.cmd text eol=crlf
+*.png binary
+*.jpg binary

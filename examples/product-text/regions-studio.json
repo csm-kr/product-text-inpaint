@@ -1,0 +1,8 @@
+{
+  "source_quad": [[1104,1300],[1876,1324],[1868,3516],[1037,3516]],
+  "base_quad": [[334,173],[739,173],[740,1306],[329,1306]],
+  "regions": [
+    {"name":"upper-text","box":[350,215,715,645],"kernel":51,"noise_floor":0.18,"opaque_at":0.80,"exclude":[[502,242,525,285]]},
+    {"name":"bottom-brand","box":[345,1225,724,1285],"kernel":41,"noise_floor":0.18,"opaque_at":0.80}
+  ]
+}

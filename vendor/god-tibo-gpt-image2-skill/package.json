@@ -1,0 +1,12 @@
+{
+  "name": "god-tibo-gpt-image2-skill-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "god-tibo-imagen": "0.3.1"
+  }
+}

@@ -1,0 +1,26 @@
+[project]
+name = "product-text-inpaint-runtime"
+version = "0.1.0"
+description = "AI product image cleanup and original text/logo restoration"
+requires-python = ">=3.10"
+dependencies = [
+    "pillow>=12,<13",
+    "numpy>=2.2.6,<3",
+    "opencv-python>=4.10",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.1"]
+
+[project.scripts]
+text-clean = "image_lab.text_cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["image_lab*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

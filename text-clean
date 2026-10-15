@@ -1,0 +1,7 @@
+#!/bin/sh
+set -eu
+PROJECT_ROOT=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+. "$PROJECT_ROOT/toolchain/env.sh"
+configure_local_env "$PROJECT_ROOT"
+require_local_toolchain
+exec "$VENV_PYTHON" -m image_lab.text_cli "$@"

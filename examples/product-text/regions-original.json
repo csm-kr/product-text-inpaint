@@ -1,0 +1,19 @@
+{
+  "regions": [
+    {
+      "name": "upper-text",
+      "box": [1115,1365,1855,2205],
+      "kernel": 151,
+      "noise_floor": 0.18,
+      "opaque_at": 0.80,
+      "exclude": [[1410,1415,1468,1525]]
+    },
+    {
+      "name": "bottom-brand",
+      "box": [1055,3370,1840,3485],
+      "kernel": 101,
+      "noise_floor": 0.18,
+      "opaque_at": 0.80
+    }
+  ]
+}

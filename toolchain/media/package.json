@@ -1,0 +1,14 @@
+{
+  "name": "product-text-inpaint-local-media-tools",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Pinned project-local ffmpeg and ffprobe binaries.",
+  "dependencies": {
+    "@derhuerst/ffprobe-static": "5.3.0",
+    "ffmpeg-static": "5.3.0"
+  },
+  "allowScripts": {
+    "ffmpeg-static": true,
+    "@derhuerst/ffprobe-static": true
+  }
+}

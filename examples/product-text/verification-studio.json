@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "outside_region_changed_pixels": 0,
+  "regions": [
+    {
+      "name": "upper-text",
+      "opaque_ink_pixels": 10005,
+      "opaque_ink_mismatches": 0
+    },
+    {
+      "name": "bottom-brand",
+      "opaque_ink_pixels": 1361,
+      "opaque_ink_mismatches": 0
+    }
+  ],
+  "source_was_transformed": true,
+  "native_canvas_size": [
+    1086,
+    1448
+  ],
+  "scope": "Outside-base pixels and prepared opaque ink only; visual extraction/letter review is separate.",
+  "final_sha256": "5ee896bfed047b5409a0f26271bdfb30f9fb27c327fdf838ac91ab0ded537441",
+  "clean_base_sha256": "faa0bfe6feda5ddcdadb02ee23a4c26a0090c60fa217cb389cee3962e9f44d2a",
+  "source": "source.png",
+  "base": "base.png",
+  "clean_base": "clean-base.png",
+  "image": "final.png",
+  "configuration": "regions-studio.json",
+  "provenance": "Local extraction/composite rerun using the supplied files; AI backgrounds retained from the completed studio test."
+}

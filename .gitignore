@@ -1,0 +1,17 @@
+.local/
+.cache/
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+out/
+output/
+/.agents/skills/product-text-inpaint
+/.claude/skills/product-text-inpaint
+runtime.json
+auth.json
+.env
+Thumbs.db
+.DS_Store

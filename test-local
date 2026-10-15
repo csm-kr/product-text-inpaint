@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+PROJECT_ROOT=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+. "$PROJECT_ROOT/toolchain/env.sh"
+configure_local_env "$PROJECT_ROOT"
+require_local_toolchain
+unset GOD_TIBO_NODE
+TESTS=$(to_native_path "$PROJECT_ROOT/tests")
+SKILL_TESTS=$(to_native_path "$PROJECT_ROOT/skills/product-text-inpaint/scripts")
+exec "$VENV_PYTHON" -m pytest -q "$TESTS" "$SKILL_TESTS/test_text_layers.py" "$SKILL_TESTS/test_install.py"
